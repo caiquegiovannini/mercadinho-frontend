@@ -5,12 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="index.css">
 
     <title>Mercadinho</title>
 </head>
 
 <body>
-    Hello Mercadinho!
+    <div class="background">
+
+        <header class="header container">
+            <img src="https://via.placeholder.com/150x80" alt="Logo" class="header__logo">
+
+            <nav class="header__links">
+                <a href="./" class="header__link">Entregadores</a>
+                <a href="#" class="header__link">Cadastre-se</a>
+                <a href="#" class="header__link">
+                    Login
+                    <img src="./public/assets/profile-icon.png" alt="ícone de perfil" class="link__login-avatar">
+                </a>
+            </nav>
+        </header>
+
+        <main class="main container">
+            <section class="main__content">
+                <h1 class="main__title">Descubra os vendedores mais próximos de você</h1>
+
+                <form class="main__form">
+
+                    <div class="form__fields">
+
+                        <div class="form__field">
+                            <div class="field__title">Informe seu estado</div>
+                            <input 
+                                type="text"
+                                class="field__input"
+                            >
+                        </div>
+
+                        <div class="form__field">
+                            <div class="field__title">Informe sua cidade</div>
+                            <input 
+                                type="text"
+                                class="field__input"
+                            >
+                        </div>
+
+                    </div>
+
+                    <button type="submit" class="button__submit">Procurar</button>
+                </form>
+            </section>
+
+            <section class="main__home-image">
+                <img src="./public/assets/people.png" alt="pessoas comprando" class="main__img">
+            </section>
+        </main>
+
+    </div>
 </body>
 </html>

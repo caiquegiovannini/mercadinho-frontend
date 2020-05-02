@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    height: 10vh;
+}
+
+.header__links{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header__link {
+    margin-right: 150px;
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+
+.header__link:last-child {
+    position: absolute;
+    right: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.link__login-avatar {
+    width: 40px;
+    margin-left: 20px;
+}

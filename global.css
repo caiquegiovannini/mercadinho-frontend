@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
+:root {
+    --text-color: #364d5f;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,11 +14,26 @@
     text-decoration: none;
 }
 
-body, input, button {
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    background: linear-gradient(180deg, #ffffff 0%, #fff4dc 58%, #ffffff 100%);
+}
+
+html, body, input, button {
     font-family: 'Fjalla One', sans-serif;
+    font-size: 16px;
 }
 
 button {
     background: none;
     cursor: pointer;
+}
+
+.container {
+    width: 85vw;
+    margin: 0 auto;
+    position: relative;
 }
