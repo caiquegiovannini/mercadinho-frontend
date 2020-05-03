@@ -3,7 +3,7 @@
 {% block content %}
 
     <section class="search">
-        <form action="/search" method="GET" class="search__form container">
+        <form action="/sellers" method="GET" class="search__form container">
 
             <input 
                 type="text"
@@ -20,13 +20,13 @@
     
     <main class="container">
 
-        <div class="stores">
+        <div class="cards cards--sellers">
             {% for store in stores %}
     
-                <div class="store">
-                    <img src="{{store.photo}}" alt="{{store.name}}" class="store__photo">
-                    <h2 class="store__name">{{store.name}}</h2>
-                    <p class="store__description">{{store.description}}</p>
+                <div class="card">
+                    <img src="{{store.photo}}" alt="{{store.name}}" class="card__photo">
+                    <h2 class="card__name">{{store.name}}</h2>
+                    <p class="card__description">{{store.description}}</p>
                 </div>
 
             {% endfor %}

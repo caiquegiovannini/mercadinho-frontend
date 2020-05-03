@@ -31,34 +31,3 @@
     height: 30px;
     padding: 2px 4px;
 }
-
-.stores {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    column-gap: 110px;
-}
-
-.store {
-    margin-bottom: 30px;
-}
-
-.store__photo {
-    width: 100%;
-    height: 120px;
-    border-radius: 6px;
-    object-fit: cover;
-}
-
-.store__name {
-    font-size: 1.2rem;
-    font-weight: normal;
-    color: var(--text-color);
-    text-align: center;
-}
-
-.store__description {
-    color: #7d817e;
-    font-size: 0.8rem;
-    text-align: center;
-    margin-top: 5px;
-}
