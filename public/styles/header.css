@@ -1,6 +1,7 @@
 .header {
     display: flex;
-    height: 80px;
+    height: 70px;
+    z-index: 1;
 }
 
 .header__links{

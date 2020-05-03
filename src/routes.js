@@ -17,6 +17,10 @@ routes.get('/search', (req, res) => {
 
     return res.render('home/search', { stores })
 })
+routes.get('/register', (req, res) => {
+
+    return res.render('user/register/index')
+})
 
 
 module.exports = routes

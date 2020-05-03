@@ -1,5 +1,10 @@
-body {
-    background: linear-gradient(180deg, #ffffff 0%, #fff4dc 58%, #ffffff 100%);
+.background {
+    background: linear-gradient(180deg, #ffffff 0%, #fff4dc 58%, #ffffff 100%) no-repeat;
+    background-size: contain;
+    padding-top: 80px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 
 .background::before {
@@ -12,7 +17,6 @@ body {
     background-size: contain;
     background-position: bottom right;
     background-repeat: no-repeat;
-    z-index: -1;
 }
 
 .main {

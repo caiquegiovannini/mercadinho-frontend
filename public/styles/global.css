@@ -1,5 +1,6 @@
 :root {
     --primary-color: #349c88;
+    --primary-color-dark: #1f5f521f;
     --text-color: #364d5f;
 }
 
@@ -17,11 +18,15 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+
+    background: url('/assets/background-pages.svg') no-repeat bottom;
+    background-size: cover;
 }
 
 html, body, input, button {
     font-family: 'Fjalla One', sans-serif;
     font-size: 16px;
+    letter-spacing: 1px;
 }
 
 button {
