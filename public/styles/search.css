@@ -1,5 +1,5 @@
 body {
-    background: url('../../public/assets/background-pages.svg');
+    background: url('/assets/background-pages.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -35,8 +35,8 @@ body {
 }
 
 .search__button-icon {
-    font-size: 1.9rem;
-    padding: 0 4px;
+    height: 30px;
+    padding: 2px 4px;
 }
 
 .stores {

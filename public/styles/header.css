@@ -28,7 +28,8 @@
 
 .link__login-avatar {
     margin-left: 20px;
-    font-size: 3rem;
+    width: 48px;
+    height: 48px;
 }
 
 @media (max-width: 811px) {

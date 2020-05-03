@@ -2,12 +2,17 @@ body {
     background: linear-gradient(180deg, #ffffff 0%, #fff4dc 58%, #ffffff 100%);
 }
 
-.background {
+.background::before {
+    content: '';
+    position: absolute;
+    top: 0;
     height: 100%;
-    background-image: url('./public/assets/waves.svg');
+    width: 100%;
+    background-image: url('/assets/waves.svg');
     background-size: contain;
     background-position: bottom right;
     background-repeat: no-repeat;
+    z-index: -1;
 }
 
 .main {
