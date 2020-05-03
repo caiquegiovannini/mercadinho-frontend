@@ -1,13 +1,17 @@
+body {
+    background: linear-gradient(180deg, #ffffff 0%, #fff4dc 58%, #ffffff 100%);
+}
+
 .background {
-    height: 100vh;
-    background-image: url('./public/assets/filter.svg');
+    height: 100%;
+    background-image: url('./public/assets/waves.svg');
     background-size: contain;
     background-position: bottom right;
     background-repeat: no-repeat;
 }
 
 .main {
-    height: 90vh;
+    margin-top: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,29 +54,12 @@
     width: 100%;
 }
 
-.button__submit {
-    display: flex;
-    margin: 0 auto;
-    padding: 12px 36px;
-
-    background: #88bd9b;
-    color: white;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-}
-
 .main__home-image {
-    width: 500px;
+    max-width: 40%;
     position: absolute;
     right: -60px;
 }
 
 .main__img {
     width: 100%;
-}
-
-@media (max-width: 811px) {
-    .header__link {
-        margin-right: 40px;
-    }
 }

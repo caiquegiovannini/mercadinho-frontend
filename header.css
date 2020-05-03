@@ -1,18 +1,21 @@
 .header {
     display: flex;
-    height: 10vh;
+    height: 80px;
 }
 
 .header__links{
     display: flex;
     align-items: center;
-    margin: 0 auto;
 }
 
 .header__link {
     margin-right: 150px;
     font-size: 1.5rem;
     color: var(--text-color);
+}
+
+.header__link:first-child {
+    margin-right: 240px;
 }
 
 .header__link:last-child {
@@ -24,6 +27,12 @@
 }
 
 .link__login-avatar {
-    width: 40px;
     margin-left: 20px;
+    font-size: 3rem;
+}
+
+@media (max-width: 811px) {
+    .header__link, .header__link:first-child {
+        margin-right: 40px;
+    }
 }
