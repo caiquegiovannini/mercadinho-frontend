@@ -1,5 +1,5 @@
 {
-  "name": "mercadinho-frontend",
+  "name": "mercaqui-frontend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/caiquegiovannini/mercadinho-frontend.git"
+    "url": "git+https://github.com/caiquegiovannini/mercaqui-frontend.git"
   },
   "keywords": [],
   "author": "Caique Giovannini",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/caiquegiovannini/mercadinho-frontend/issues"
+    "url": "https://github.com/caiquegiovannini/mercaqui-frontend/issues"
   },
-  "homepage": "https://github.com/caiquegiovannini/mercadinho-frontend#readme",
+  "homepage": "https://github.com/caiquegiovannini/mercaqui-frontend#readme",
   "dependencies": {
     "express": "^4.17.1",
     "nunjucks": "^3.2.1"

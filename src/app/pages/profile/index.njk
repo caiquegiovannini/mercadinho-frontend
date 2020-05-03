@@ -1,0 +1,51 @@
+{% extends 'layout-profile.njk' %}
+
+{% block content %}
+
+    <main class="seller-profile container">
+
+        <section class="seller-profile__info">
+        
+            <div class="seller-profile__header">
+                <img src="/assets/seller-icon.png" alt="Foto de loja" class="seller-profile__photo">
+
+                <p class="seller-profile__category">
+                    Categoria A
+                </p>
+            </div>
+
+            <h2 class="seller-profile__name">Loja 1</h2>
+
+            <p class="seller-profile__description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, nihil commodi! Explicabo tempore beatae consequatur.
+            </p>
+        
+        </section>
+
+        <section class="seller-profile__products">
+        
+            <h3 class="seller-profile__title">Produtos</h3>
+
+            <div class="seller-products">
+            
+                {% for product in products %}
+                    <div class="product">
+                    
+                        <img src="{{product.photo}}" alt="Foto do produto" class="product__photo">
+
+                        <h4 class="product__name">{{product.name}}</h4>
+
+                        <p class="product__price">{{product.price}}</p>
+
+                    </div>
+                {% endfor %}
+
+            </div>
+        
+            <button class="button">Ver todos</button>
+
+        </section>
+
+    </main>
+
+{% endblock content %}
