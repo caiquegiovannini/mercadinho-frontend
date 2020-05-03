@@ -17,9 +17,13 @@ routes.get('/search', (req, res) => {
 
     return res.render('home/search', { stores })
 })
-routes.get('/register', (req, res) => {
+routes.get('/users/register', (req, res) => {
 
-    return res.render('user/register/index')
+    return res.render('user/register')
+})
+routes.get('/users/login', (req, res) => {
+
+    return res.render('session/login')
 })
 
 
